@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.SettingsFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <!-- Top Bar -->
+        <RelativeLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#0099ff">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:text="Settings"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/settingsicon"
+                tools:ignore="ContentDescription"
+                app:tint="@android:color/white" />
+
+        </RelativeLayout>
+
+        <!-- Settings Options -->
+        <LinearLayout
+            android:id="@+id/settingsOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topBar"
+            android:orientation="vertical">
+
+            <!-- Logout -->
+            <LinearLayout
+                android:id="@+id/logouttxt"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/settings_option_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/shutdown"
+                    tools:ignore="ContentDescription"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Logout"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!-- Contact Us -->
+            <LinearLayout
+                android:id="@+id/contactus"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/settings_option_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/communicate"
+                    tools:ignore="ContentDescription"
+                    app:tint="#0099ff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Contact Us"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scan the QR code to Contact or tap above"
+                android:textColor="#636363"
+                android:textSize="14sp"
+                android:layout_gravity="center" />
+            <ImageView
+                android:layout_marginTop="60dp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:src="@drawable/qrcode"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</layout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mini Project</string>
+    <string name="splash_text">Welcome to my Akshaya Patra!</string>
+    <string name="welcome">Welcome to Akshaya Patra\nDonate! Help!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1">I still don\'t trust\nyou.\nTell me Something\nthat only two of us know</string>
+    <string name="otpstring">Please wait until you recieve the OTP\nDo not hit back !!</string>
+</resources>

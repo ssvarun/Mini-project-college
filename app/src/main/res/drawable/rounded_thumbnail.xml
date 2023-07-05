@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rounded_thumbnail.xml -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8dp" /> <!-- Set the radius to control the roundness of the corners -->
+    <solid android:color="#FFFFFF" /> <!-- Set the background color of the thumbnail -->
+</shape>

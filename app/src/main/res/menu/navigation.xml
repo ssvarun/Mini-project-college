@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/homw_nav"
+    android:icon="@drawable/homeicon"
+    android:title="Home"/>
+
+    <item
+        android:id="@+id/person_nav"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/imagepost"
+        android:icon="@drawable/addimage"
+        android:title="New Post"/>
+    <item
+        android:id="@+id/set_nav"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings"/>
+
+</menu>
